@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-	//EXAMPLE -- Feel free to remove --
+	// EXAMPLE: Displays the leap years for the years 1 to 10 
+	// -- Feel free to delete --
 	for (int year = 1; year <= 10; year++) {
 		if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
 			cout << year << " was a leap year" << endl;
