@@ -38,7 +38,7 @@ int main()
 		cout << 2010 << " was a leap year" << endl;
 	}
 
-	// PROBLEM 1
+	// 3.5.2 Count the Leap Years
 
 
 	// PROBLEM 2
