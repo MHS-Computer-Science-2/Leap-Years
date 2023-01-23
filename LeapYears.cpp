@@ -3,7 +3,9 @@ using namespace std;
 
 int main()
 {
-	// 3.5.1 Leap Years Introduction
+	// 3.5.1 Leap Years Introduction/
+	cout << "LEAP YEARS FROM 2000 to 2010:" << endl;
+
 	if (2000 % 4 == 0 && 2000 % 100 != 0 || 2000 % 400 == 0) {
 		cout << 2000 << " was a leap year" << endl;
 	}
@@ -38,22 +40,27 @@ int main()
 		cout << 2010 << " was a leap year" << endl;
 	}
 
+	
 	// 3.5.2 Count the Leap Years
-
+	cout << "\nNumber of Leap Years from 1 to 2022:" << endl;
+	
 
 	// 3.5.3 Count the Leap Years with User Input
+	cout << "\nLEAP YEARS FROM BETWEEN USER INPUTTED NUMBERS:" << endl;
+
+	
+	// 3.5.4 Display the leap years backwards
+	cout << "\n21st CENTURY LEAP YEARS IN REVERSE ORDER:" << endl;
 
 
-	// PROBLEM 3
+	// 3.5.5 and 3.5.6 Leap Years until -1
+	cout << "\nLeap Years until User Enters -1:" << endl;
 
 
-	// PROBLEM 4
 
-
-	// PROBLEM 5
-
-
-	// PROBLEM 6 -- EXTRA CREDIT --
+	// 3.5.7 Counting New Years Days (Extra Credit)
+	
+	
 
 	system("pause");
 }
